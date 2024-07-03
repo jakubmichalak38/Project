@@ -17,11 +17,14 @@
 
         </section>
         <hr class="hr2">
-        <input type="text" id="login" placeholder="Adres e-mail lub numer telefonu" ><br>
-        <input type="password" id="password" placeholder="Hasło"><br>
-        <a href="index.html">
-            <button onclick="create()" class="zaloguj">Zaloguj się</button>
-        </a><br>
+
+        
+            <input type="text" id="login" placeholder="Adres e-mail lub numer telefonu" name="e-mail"><br>
+        <input type="password" id="password" placeholder="Hasło" name="password"><br>
+        
+            <button type="button" class="zaloguj" onclick="checking()">Zaloguj się</button>
+        <br>
+        
         <hr class="hr2">
         <section>
         <a href="loginproblem.html" class="password-problem">
@@ -33,6 +36,7 @@
     <button class="create">Utwórz konto</button>
     </a>
     </div>
+    <?php skrypt(); ?>
     
     <script src="script.js"></script>
 </body>

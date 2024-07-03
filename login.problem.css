@@ -1,0 +1,100 @@
+div{
+    width: 600px;
+    height:290px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    animation: animacja 0.6s;
+}
+header{
+    background-color: white;
+    width: 600px;
+    padding-top: 20px;
+    height:40px;  
+    padding-bottom:0px;            
+    
+    font-weight: 600;
+    font-size: 25px;
+   text-align: center;
+}
+hr{
+    width: 600px;
+    height: 1px;
+    background-color: rgb(218,218,218);
+    border:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.text{
+    margin:15px 15px 15px 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+input{
+    height:50px;
+    margin-left: 20px;
+    width: 552px;
+    margin-top: 0px;
+    border:1px rgb(218,218,218) solid;
+    border-radius: 5px;  
+    font-size: 100%;
+    text-align: center;
+}
+.input{
+    height: 75px;
+}
+.b1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(232, 232, 232);
+    color:grey;
+    font-size: 100%;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 368px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.b1:hover{
+    background-color: rgb(207, 207, 207);
+    color:rgb(98, 98, 98);
+}
+.b2{
+    width: 100px;
+    height: 40px;
+    background-color: seagreen;
+    color:white;
+    font-size: 100%;
+    border: 0px;
+    border-radius: 5px;
+    margin-left:5px;
+    margin-top: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.b2:hover{
+
+    background-color:rgb(36, 109, 68);
+}
+
+@keyframes animacja{
+    0%{
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+    40%{
+        transform: translateY(80px);
+        opacity: 0.5;
+    }
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
